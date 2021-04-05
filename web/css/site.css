@@ -1,0 +1,212 @@
+html,
+body {
+    background: url(../img/top-view-photo-of-keyboard-near-earphone-1420709.jpg)  no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+     height: 40px;
+     padding-top: 10px;
+ }
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.socialb{
+    justify-content: end;
+}
+.site-nossapagina, .user-default-login,.site-contacto, .artigo-create, .artigo-submeterartigo, .site-error, .artigo-view,
+.artigo-update, .user-default-register, .categoria-index, .user-default-profile, .user-default-account{
+    min-height: 1000px;
+    padding-left: 50px;
+}
+.artigo-index{
+    min-height: 1000px;
+}
+.submeterartigo{
+    padding-left: 32px;
+}
+.subform{
+    padding-left: 120px;
+}
+.user-default-login, .user-default-register{
+    padding-right: 10px;
+}
+@media(max-width:300px) {
+    .footer {
+        display:block;
+        align-self: end ;
+        width: 10%;
+
+    }
+}
+.carousel-item  a{
+    color: white;
+    font-size: 25px;
+}
+
+.carousel-item a:hover{
+    text-decoration: none;
+   font-size:28px ;
+}
+
+.navbar {
+    padding: 0rem 0rem;
+}
+.navbara {
+     padding: 5px 42px;
+ }
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.1rem 0rem;
+    background-color: white;
+    list-style: none;
+}
+
+.breadcrumb-item {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration: none;
+}
+
+.img-fluid{
+    width: 1500px;
+    height: 430px;
+}
